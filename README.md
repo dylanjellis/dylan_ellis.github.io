@@ -1,4 +1,4 @@
-title: Dylan Ellis - Data Analytics Portfolio
+Title: Dylan Ellis - Data Analytics Portfolio
 ---
 
 # 📊 Dylan Ellis - Data Analytics Portfolio
@@ -17,7 +17,7 @@ a variety of different dataset's to gain experience with a wide range of differe
 ✔ **Key Metrics:** Call volume, resolution rates, agent performance  
 ✔ **Interactive Filters:** Analyze trends dynamically 
 
-image: https://github.com/dylanjellis/dylan_ellis.github.io/blob/main/assets/images/Profile%20picture.jpg?raw=true
+image: assets/images/Power BI dashboard image.png
 
 👉 [assets/docs/call center dashboard.pbix](#)  
 
