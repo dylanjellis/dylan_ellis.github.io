@@ -1,11 +1,11 @@
 title: Dylan Ellis - Data Analytics Portfolio
-description: Showcasing projects in Power BI, SQL, and Excel.
 ---
 
 # 📊 Dylan Ellis - Data Analytics Portfolio
 
-Welcome! I'm **Dylan Ellis**, a data analyst skilled in **Power BI, SQL, and Excel**.  
-This portfolio showcases my work in **data visualization, business intelligence, and reporting**.
+Welcome! I'm **Dylan Ellis**, the tools i have used within this portfolio are; Power BI, SQL, and Excel.  
+This portfolio showcases my work in data cleaning, vizulaization and reporting. I have deliberatley chosen 
+a variety of different dataset's to gain experience with a wide range of different skills from HR, financial and non-financial trends.
 
 ---
 
@@ -15,7 +15,9 @@ This portfolio showcases my work in **data visualization, business intelligence,
 📌 **Description:** A Power BI dashboard analyzing **call center performance, agent efficiency, and customer satisfaction.**  
 
 ✔ **Key Metrics:** Call volume, resolution rates, agent performance  
-✔ **Interactive Filters:** Analyze trends dynamically  
+✔ **Interactive Filters:** Analyze trends dynamically 
+
+image: https://github.com/dylanjellis/dylan_ellis.github.io/blob/main/assets/images/Profile%20picture.jpg?raw=true
 
 👉 [assets/docs/call center dashboard.pbix](#)  
 
@@ -23,7 +25,7 @@ This portfolio showcases my work in **data visualization, business intelligence,
 
 ## 🚀 Skills & Tools  
 
-- **Power BI** – Dashboarding, DAX, Data Modeling  
+- **Power BI** – Dashboarding, DAX, Data Modeling, slicers  
 - **SQL** – Queries, Joins, Data Cleaning  
 - **Excel** – Pivot Tables, Data Analysis, Automation  
 
