@@ -1,0 +1,6 @@
+title: Dylan Ellis
+logo: assets/images/profile picture.jpg
+show_downloads: True
+remote_theme: pages-themes/minimal@v0.2.0
+Plugins:
+- jekyll-remote-theme
