@@ -14,10 +14,10 @@ a variety of different dataset's to gain experience with a wide range of differe
 ### 📞 Call Center Dashboard (Power BI)  
 📌 **Description:** A Power BI dashboard analyzing **call center performance, agent efficiency, and customer satisfaction.**  
 
-✔ **Key Metrics:** Call volume, resolution rates, agent performance  
+✔ **Key Metrics:** Call volume, resolution rates, agent performance, identifying KPI's  
 ✔ **Interactive Filters:** Analyze trends dynamically 
 
-image: assets/images/Power BI dashboard image.png
+image: https://github.com/dylanjellis/dylan_ellis.github.io/blob/main/assets/images/Power%20BI%20dashboard%20image.png
 
 👉 [assets/docs/call center dashboard.pbix](#)  
 
