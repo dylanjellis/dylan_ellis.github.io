@@ -112,8 +112,11 @@ WHERE row_num > 1;
 ## 📥 How to Use  
 
 1️⃣ Clone the repository: git clone https://github.com/your-username/sql-layoffs-analysis.git
+
 2️⃣ Import the dataset into MySQL / PostgreSQL.
+
 3️⃣ Run the cleaning queries first to process the raw data.
+
 4️⃣ Execute the exploratory analysis queries to gain insights.
 
 
@@ -160,8 +163,11 @@ WHERE Ranking <= 5;
 ## 📥 How to Use  
 
 1️⃣ Clone the repository:git clone https://github.com/your-username/sql-layoffs-analysis.git
+
 2️⃣ Import the dataset into MySQL / PostgreSQL.
+
 3️⃣ Run the cleaning queries first to process the raw data.
+
 4️⃣ Execute the exploratory analysis queries to gain insights.
 
 
