@@ -18,6 +18,14 @@ a variety of different dataset's to gain experience with a wide range of differe
 ✔ **Interactive Filters:** Analyze trends dynamically 
 
 image: ![Image of Power BI dashboard](assets/images/Power BI dashboard image.png)
+
+#### 🔹 How to Use the Dashboard  
+1. **Open the Power BI File** – Download and open the `.pbix` file in **Power BI Desktop** (latest version recommended).  
+2. **Explore Key Metrics** – Navigate through different **KPIs and visuals** for insights on call center performance.  
+3. **Use Filters & Slicers** – Filter by **date, agent, and department** to analyze specific trends.  
+4. **Hover for Insights** – Tooltips provide additional details on each metric.  
+5. **Export Reports** – Use Power BI’s export options to generate **PDF or Excel reports** for stakeholders.  
+
 👉 [assets/docs/call center dashboard.pbix](#)  
 
 ---
@@ -33,7 +41,7 @@ image: ![Image of Power BI dashboard](assets/images/Power BI dashboard image.png
 # ☕ Coffee Sales Dashboard (Excel)  
 
 ## 📌 Overview  
-This **Coffee Sales Dashboard**, built in **Microsoft Excel**, provides insights into sales performance, customer trends, and revenue distribution. The dashboard helps analyze key metrics, visualize trends, and make data-driven business decisions.  
+This Coffee Sales Dashboard, built in Microsoft Excel, provides insights into sales performance, customer trends, and revenue distribution. The dashboard helps analyze key metrics, visualize trends, and make data-driven business decisions.  
 
 ## 📊 Key Features  
 
@@ -52,7 +60,7 @@ This **Coffee Sales Dashboard**, built in **Microsoft Excel**, provides insights
 - **Advanced Formulas & Functions (SUMIFS, VLOOKUP, INDEX-MATCH)**  
 
 ## 📊 Sample Dashboard Preview  
-![Coffee sales dashboard](assets/images/coffee-dashboard.jpg)  
+![Coffee sales dashboard](assets/images/Excel dashboard image.jpg)  
 
 ## 📥 How to Use  
 1. **Download the Excel file** from this repository.  
