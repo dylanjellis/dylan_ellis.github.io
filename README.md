@@ -60,7 +60,7 @@ This Coffee Sales Dashboard, built in Microsoft Excel, provides insights into sa
 - **Advanced Formulas & Functions (SUMIFS, VLOOKUP, INDEX-MATCH)**  
 
 ## 📊 Sample Dashboard Preview  
-![Coffee sales dashboard](assets/images/Excel dashboard image.jpg)  
+![Coffee sales dashboard](assets/images/Excel dashboard image.png)  
 
 ## 📥 How to Use  
 1. **Download the Excel file** from this repository.  
