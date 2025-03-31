@@ -70,6 +70,108 @@ This Coffee Sales Dashboard, built in Microsoft Excel, provides insights into sa
 
 👉 [assets/docs/Coffee sales Excel dashboard.xlsx](#)  
 
+---
+
+# 📊 Layoffs Data Analysis (SQL)
+
+## 📌 Overview  
+This project focuses on **data cleaning and exploratory analysis** of layoffs data using **SQL**. The dataset contains information on companies, industries, total layoffs, and other key business metrics. The goal is to clean messy data, standardize formats, and extract valuable insights about layoff trends.
+
+---
+
+## 🔹 Data Cleaning Steps  
+
+✔ **Removing Duplicates** – Identified and removed duplicate records using `ROW_NUMBER()`.  
+✔ **Standardizing Data** – Trimmed whitespace, formatted dates, and corrected inconsistent industry names.  
+✔ **Handling Null & Blank Values** – Replaced missing values using reference data from the same company.  
+✔ **Removing Unnecessary Columns** – Eliminated rows with missing key metrics.  
+
+🚀 **Key Queries Used:** `ROW_NUMBER()`, `UPDATE`, `DELETE`, `ALTER TABLE`, `STR_TO_DATE()`  
+
+###
+```SQL
+WITH duplicate_cte AS (
+    SELECT *,
+        ROW_NUMBER() OVER(
+            PARTITION BY company, location, industry, total_laid_off, percentage_laid_off, `date`, stage, country, funds_raised_millions
+        ) AS row_num
+    FROM layoffs_staging
+)
+DELETE FROM layoffs_staging
+WHERE row_num > 1;
+```
+
+## 🔧 Technologies & Skills  
+
+- **SQL (MySQL / PostgreSQL)**  
+- **Data Cleaning & Transformation**  
+- **CTEs & Window Functions**  
+- **Aggregations & Ranking**  
+- **Trend Analysis & Reporting**  
+
+## 📥 How to Use  
+
+1️⃣ **Clone the repository:**  
+```sh
+git clone https://github.com/your-username/sql-layoffs-analysis.git
+2️⃣ Import the dataset into MySQL / PostgreSQL.
+3️⃣ Run the cleaning queries first to process the raw data.
+4️⃣ Execute the exploratory analysis queries to gain insights.
+
+
+
+---
+
+## 🔍 Exploratory Data Analysis (EDA)  
+
+✔ **Total Layoffs Per Company** – Ranked companies with the highest layoffs.  
+✔ **Industry-Wise Analysis** – Summarized layoffs by sector to identify the most affected industries.  
+✔ **Yearly & Monthly Trends** – Used window functions to calculate rolling totals over time.  
+✔ **Top Companies Per Year** – Used `DENSE_RANK()` to determine yearly layoff leaders.  
+
+🚀 **Key Queries Used:** `SUM()`, `GROUP BY`, `ORDER BY`, `DENSE_RANK()`, `WITH (CTE)`, `WINDOW FUNCTIONS`  
+
+---
+
+## 📌 Sample Queries  
+
+### 🔹 **Top 5 Companies With Highest Layoffs Per Year**
+```sql
+WITH Company_Year (company, years, total_laid_off) AS (
+    SELECT company, YEAR(`date`), SUM(total_laid_off)
+    FROM layoffs_staging2
+    GROUP BY company, YEAR(`date`)
+), company_year_rank AS (
+    SELECT *, DENSE_RANK() OVER (PARTITION BY years ORDER BY total_laid_off DESC) AS Ranking
+    FROM Company_Year
+    WHERE years IS NOT NULL
+)
+SELECT * FROM company_year_rank
+WHERE Ranking <= 5;
+```
+
+## 🔧 Technologies & Skills  
+
+- **SQL (MySQL / PostgreSQL)**  
+- **Data Cleaning & Transformation**  
+- **CTEs & Window Functions**  
+- **Aggregations & Ranking**  
+- **Trend Analysis & Reporting**  
+
+---
+
+## 📥 How to Use  
+
+1️⃣ **Clone the repository:**  
+```sh
+git clone https://github.com/your-username/sql-layoffs-analysis.git
+2️⃣ Import the dataset into MySQL / PostgreSQL.
+3️⃣ Run the cleaning queries first to process the raw data.
+4️⃣ Execute the exploratory analysis queries to gain insights.
+
+
+
+
 ## 📬 Contact Me  
 
 📎 **LinkedIn:** [www.linkedin.com/in/dylan-ellis-b11a042b3](#)  
