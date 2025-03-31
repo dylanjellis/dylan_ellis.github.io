@@ -161,11 +161,12 @@ WHERE Ranking <= 5;
 ---
 
 ## 📥 How to Use  
-1. **Clone the repository** using the command below:
+1. **Clone the repository** using the command below:  
    [git clone https://github.com/dylanjellis/sql-layoffs-analysis.git](#)
 2. Import the dataset into MySQL / PostgreSQL.
 3. Run the cleaning queries to process and standardize the raw data.
 4. Execute the exploratory analysis queries to uncover key insights.
+
 
 
 
