@@ -163,7 +163,6 @@ WHERE Ranking <= 5;
 
 ## 📥 How to Use  
 1. **Clone the repository** using the command below:
-```sh
    [git clone https://github.com/dylanjellis/sql-layoffs-analysis.git](#)
 3. Import the dataset into MySQL / PostgreSQL.
 4. Run the cleaning queries to process and standardize the raw data.
