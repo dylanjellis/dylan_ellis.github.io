@@ -115,7 +115,7 @@ WHERE row_num > 1;
 ## 📥 How to Use  
 1. **Clone the repository** using the command below:  
    ```sh
-   git clone https://github.com/dylanjellis/sql-layoffs-analysis.git
+   [git clone https://github.com/dylanjellis/sql-layoffs-analysis.git](#)
 2. Import the dataset into MySQL / PostgreSQL.
 3. Run the cleaning queries to process and standardize the raw data.
 4. Execute the exploratory analysis queries to uncover key insights.
@@ -164,7 +164,7 @@ WHERE Ranking <= 5;
 ## 📥 How to Use  
 1. **Clone the repository** using the command below:
 ```sh
-git clone https://github.com/dylanjellis/sql-layoffs-analysis.git
+   [git clone https://github.com/dylanjellis/sql-layoffs-analysis.git](#)
 3. Import the dataset into MySQL / PostgreSQL.
 4. Run the cleaning queries to process and standardize the raw data.
 5. Execute the exploratory analysis queries to uncover key insights.
