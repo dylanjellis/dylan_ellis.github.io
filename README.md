@@ -118,7 +118,7 @@ WHERE row_num > 1;
    git clone https://github.com/your-username/sql-layoffs-analysis.git
 2. Import the dataset into MySQL / PostgreSQL.
 3. Run the cleaning queries to process and standardize the raw data.
-4.Execute the exploratory analysis queries to uncover key insights.
+4. Execute the exploratory analysis queries to uncover key insights.
 
 
 ---
@@ -163,11 +163,10 @@ WHERE Ranking <= 5;
 
 ## 📥 How to Use  
 1. **Clone the repository** using the command below:  
-   ```sh
-   git clone https://github.com/your-username/sql-layoffs-analysis.git
-2.Import the dataset into MySQL / PostgreSQL.
-3.Run the cleaning queries to process and standardize the raw data.
-4.Execute the exploratory analysis queries to uncover key insights.
+git clone https://github.com/your-username/sql-layoffs-analysis.git
+2. Import the dataset into MySQL / PostgreSQL.
+3. Run the cleaning queries to process and standardize the raw data.
+4. Execute the exploratory analysis queries to uncover key insights.
 
 
 
