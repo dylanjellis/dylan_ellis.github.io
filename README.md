@@ -122,7 +122,7 @@ WHERE row_num > 1;
 
 ---
 
-##🔍 Exploratory Data Analysis (EDA)  
+## 🔍 Exploratory Data Analysis (EDA)  
 
 ✔ **Total Layoffs Per Company** – Ranked companies with the highest layoffs.  
 ✔ **Industry-Wise Analysis** – Summarized layoffs by sector to identify the most affected industries.  
@@ -162,11 +162,10 @@ WHERE Ranking <= 5;
 
 ## 📥 How to Use  
 1. **Clone the repository** using the command below:
-
- [git clone https://github.com/dylanjellis/sql-layoffs-analysis.git](#)
-3. Import the dataset into MySQL / PostgreSQL.
-4. Run the cleaning queries to process and standardize the raw data.
-5. Execute the exploratory analysis queries to uncover key insights.
+   [git clone https://github.com/dylanjellis/sql-layoffs-analysis.git](#)
+2. Import the dataset into MySQL / PostgreSQL.
+3. Run the cleaning queries to process and standardize the raw data.
+4. Execute the exploratory analysis queries to uncover key insights.
 
 
 
