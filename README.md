@@ -1,11 +1,14 @@
 Title: Dylan Ellis - Data Analytics Portfolio
 ---
+image: ![Website image](assets/images/Profile picture.jpg)
 
 # 📊 Dylan Ellis - Data Analytics Portfolio
 
 Welcome! I'm **Dylan Ellis**, the tools i have used within this portfolio are; Power BI, SQL, and Excel.  
 This portfolio showcases my work in data cleaning, vizulaization and reporting. I have deliberatley chosen 
-a variety of different dataset's to gain experience with a wide range of different skills from HR, financial and non-financial trends.
+a variety of different dataset's to gain experience with a wide range of different skills from HR, financial and non-financial trends. 
+Please download the zip folder above to access my Power BI, Excel and SQL interactive dashboards and codes. The current steps i am taking to
+add to this portfolio is Python.
 
 ---
 
